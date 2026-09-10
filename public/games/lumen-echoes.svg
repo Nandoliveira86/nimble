@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="void" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101114"/>
+      <stop offset="100%" stop-color="#070708"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#e8eadf" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#e8eadf" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e8eadf" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#void)"/>
+  <rect x="80" y="0" width="40" height="1200" fill="#16181c"/>
+  <rect x="680" y="0" width="48" height="1200" fill="#16181c"/>
+  <path d="M0 220 L800 90 L800 140 L0 270 Z" fill="#1c1e24"/>
+  <path d="M0 980 L800 860 L800 920 L0 1040 Z" fill="#1c1e24"/>
+  <polygon points="310,0 490,0 450,1200 350,1200" fill="url(#beam)"/>
+  <circle cx="400" cy="1080" r="90" fill="#e8eadf" opacity="0.06"/>
+</svg>

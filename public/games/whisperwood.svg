@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="canopy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b100e"/>
+      <stop offset="40%" stop-color="#14221c"/>
+      <stop offset="100%" stop-color="#0a0c0b"/>
+    </linearGradient>
+    <radialGradient id="shaft" cx="50%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#d7dcc8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#d7dcc8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#canopy)"/>
+  <rect width="800" height="1200" fill="url(#shaft)"/>
+  <g fill="#070908">
+    <path d="M80 1200 L130 240 L190 1200Z"/>
+    <path d="M210 1200 L270 180 L340 1200Z"/>
+    <path d="M380 1200 L460 80 L530 1200Z"/>
+    <path d="M560 1200 L620 260 L690 1200Z"/>
+    <path d="M700 1200 L760 320 L820 1200Z"/>
+  </g>
+  <g fill="#0e1512" opacity="0.9">
+    <path d="M40 1200 L90 420 L150 1200Z"/>
+    <path d="M300 1200 L350 300 L410 1200Z"/>
+    <path d="M640 1200 L690 380 L750 1200Z"/>
+  </g>
+  <path d="M0 980 C180 900 320 940 420 980 C560 1030 680 980 800 1020 L800 1200 L0 1200Z" fill="#080b09"/>
+</svg>
